@@ -6,7 +6,7 @@
 - [Model Architecture](#model-architecture)
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
-- [Project Structure](#project-structure)
+
 
 
 ## Overview
@@ -83,5 +83,5 @@ The model is built using a CNN with the following layers:
         curl -X POST -F "file=@path_to_image" http://127.0.0.1:5000/predict
         ```
 
-## Project Structure
+
 
