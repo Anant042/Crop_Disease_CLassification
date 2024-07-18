@@ -20,7 +20,7 @@ The dataset consists of images of potato leaves affected by:
 - Early Blight
 - Late Blight
 - Healthy leaves
-- You can download the dataset from [Kaggle](https://www.kaggle.com/datasets](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset).
+- You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset).
 
 ## Model Architecture
 The model is built using a CNN with the following layers:
