@@ -7,11 +7,7 @@
 - [Requirements](#requirements)
 - [How to Use](#how-to-use)
 - [Project Structure](#project-structure)
-- [Results](#results)
-- [Examples](#examples)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 This project uses Convolutional Neural Networks (CNNs) to classify potato leaves into three categories:
