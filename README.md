@@ -29,11 +29,6 @@ The model is built using a CNN with the following layers:
 - Fully Connected Layers
 - Softmax Activation for Classification
 
-## Requirements
-To run this project, ensure you have the following dependencies installed:
-```bash
-pip install -r requirements.txt
-
 ## How to Use
 1. **Clone the Repository**
     ```bash
