@@ -33,3 +33,60 @@ The model is built using a CNN with the following layers:
 To run this project, ensure you have the following dependencies installed:
 ```bash
 pip install -r requirements.txt
+
+## How to Use
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/yourusername/potato-disease-classification.git
+    cd potato-disease-classification
+    ```
+
+2. **Create and Activate a Virtual Environment**
+    - Create a virtual environment:
+        ```bash
+        python -m venv venv
+        ```
+    - Activate the virtual environment:
+        - On Windows:
+            ```bash
+            .\venv\Scripts\activate
+            ```
+        - On macOS and Linux:
+            ```bash
+            source venv/bin/activate
+            ```
+
+3. **Install the Required Packages**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Prepare the Dataset**
+    - Download the dataset from [Kaggle](https://www.kaggle.com/datasets).
+    - Place the dataset in the `data/` directory.
+
+5. **Train the Model**
+    ```bash
+    python scripts/train.py
+    ```
+
+6. **Evaluate the Model**
+    ```bash
+    python scripts/evaluate.py
+    ```
+
+7. **Run the Flask Server**
+    - Start the Flask server to serve the model:
+        ```bash
+        python app.py
+        ```
+    - The server will run on `http://127.0.0.1:5000/` by default.
+
+8. **Make Predictions**
+    - You can make predictions by sending a request to the local Flask server:
+        ```bash
+        curl -X POST -F "file=@path_to_image" http://127.0.0.1:5000/predict
+        ```
+
+## Project Structure
+
