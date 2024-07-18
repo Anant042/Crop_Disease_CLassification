@@ -22,7 +22,7 @@ The dataset consists of images of potato leaves affected by:
 - Healthy leaves
 - You can download the dataset from [Kaggle](https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset).
 
-## Model Architecture
+## [Model Architecture](https://github.com/Anant042/Crop_Disease_CLassification/blob/main/model.ipynb).
 The model is built using a CNN with the following layers:
 - Convolutional Layers
 - Max Pooling Layers
