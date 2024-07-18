@@ -7,7 +7,7 @@ This project uses Convolutional Neural Networks (CNNs) to classify potato leaves
 - **Late Blight**  
 - **Healthy**
 
-### Dataset
+[https://www.kaggle.com/datasets/muhammadardiputra/potato-leaf-disease-dataset](### Dataset)
 The dataset consists of images of potato leaves affected by:  
 * Early Blight  
 * Late Blight  
